@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--<com.bob.bobmobileapp.tools.UI.views.textviews.dialogviews.MyDateTextView-->
+            <!--android:id="@+id/my_date_text_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--</com.bob.bobmobileapp.tools.UI.views.textviews.dialogviews.MyDateTextView>-->
+
+        <!--<com.bob.bobmobileapp.tools.UI.views.textviews.dialogviews.MyTextViewListDialog-->
+            <!--android:id="@+id/my_text_view_list_dialog"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--</com.bob.bobmobileapp.tools.UI.views.textviews.dialogviews.MyTextViewListDialog>-->
+
+        <!--<com.bob.bobmobileapp.tools.UI.views.textviews.dialogviews.MyTextViewMultiChoiceDialog-->
+            <!--android:id="@+id/my_text_view_multi_choice_dialog"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--</com.bob.bobmobileapp.tools.UI.views.textviews.dialogviews.MyTextViewMultiChoiceDialog>-->
+
+        <!--<com.bob.bobmobileapp.tools.UI.views.textviews.dialogviews.MyTextViewSingleChoiceDialog-->
+            <!--android:id="@+id/my_text_view_single_choice_dialog"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--</com.bob.bobmobileapp.tools.UI.views.textviews.dialogviews.MyTextViewSingleChoiceDialog>-->
+
+        <!--<com.bob.bobmobileapp.tools.UI.views.textviews.dialogviews.MyTimeTextView-->
+            <!--android:id="@+id/my_time_text_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--</com.bob.bobmobileapp.tools.UI.views.textviews.dialogviews.MyTimeTextView>-->
+
+        <!--<com.bob.bobmobileapp.tools.UI.views.textviews.MyButton-->
+            <!--android:id="@+id/my_button"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--</com.bob.bobmobileapp.tools.UI.views.textviews.MyButton>-->
+
+        <!--<com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText-->
+            <!--android:id="@+id/my_edit_text"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--</com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText>-->
+
+        <!--<com.bob.bobmobileapp.tools.UI.views.textviews.MyLocationOutputView-->
+            <!--android:id="@+id/my_location_output_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--</com.bob.bobmobileapp.tools.UI.views.textviews.MyLocationOutputView>-->
+
+        <!--<com.bob.bobmobileapp.tools.UI.views.textviews.MyLocationInputView-->
+            <!--android:id="@+id/my_location_input_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--</com.bob.bobmobileapp.tools.UI.views.textviews.MyLocationInputView>-->
+
+        <!--<com.bob.bobmobileapp.tools.UI.views.textviews.MyPhoneEditText-->
+            <!--android:id="@+id/my_phone_edit_text"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--</com.bob.bobmobileapp.tools.UI.views.textviews.MyPhoneEditText>-->
+
+        <!--<com.bob.bobmobileapp.tools.UI.views.textviews.MyTextView-->
+            <!--android:id="@+id/my_text_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--</com.bob.bobmobileapp.tools.UI.views.textviews.MyTextView>-->
+
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#125688</color>
+    <color name="colorPrimaryDark">#125688</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="titlesColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#c8e8ff</color>
+    <color name="colorError">#ff0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="testColor">#ffdd00</color>
+    <color name="colorAccentTransparent">#33c8e8ff</color>
+    <color name="colorAccentExtreTransparent">#44c8e8ff</color>
+    <color name="colorAccentHalfTransparent">#88c8e8ff</color>
+</resources>

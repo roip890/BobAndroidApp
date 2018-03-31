@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loading_layout_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside">
+
+            <!--login layout-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:id="@+id/login_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/login_title_text_view"
+                    android:layout_gravity="center">
+                </TextView>
+
+                <com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/login_email_edit_text"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp">
+                </com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText>
+
+                <com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/login_password_edit_text"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp">
+                </com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/login_error_text_view"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_gravity="center">
+                </TextView>
+
+                <com.bob.bobmobileapp.tools.UI.views.textviews.MyButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/login_sign_in_button"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_gravity="center">
+                </com.bob.bobmobileapp.tools.UI.views.textviews.MyButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="2dp"
+                    android:id="@+id/login_sign_up_message_text_view"
+                    android:layout_gravity="center">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/login_sign_up_link_text_view"
+                    android:layout_gravity="center">
+                </TextView>
+
+
+            </LinearLayout>
+
+            <!--register layout-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:id="@+id/register_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/register_title_text_view"
+                    android:layout_gravity="center">
+                </TextView>
+
+                <com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/register_username_edit_text"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp">
+                </com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText>
+
+                <com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/register_full_name_edit_text"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp">
+                </com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText>
+
+                <com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/register_email_edit_text"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp">
+                </com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText>
+
+                <com.bob.bobmobileapp.tools.UI.views.textviews.MyPhoneEditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/register_phone_edit_text"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp">
+                </com.bob.bobmobileapp.tools.UI.views.textviews.MyPhoneEditText>
+
+                <com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/register_password_edit_text"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp">
+                </com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText>
+
+                <com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/register_confirm_password_edit_text"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp">
+                </com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/register_error_text_view"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_gravity="center">
+                </TextView>
+
+                <com.bob.bobmobileapp.tools.UI.views.textviews.MyButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/register_sign_up_button"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_gravity="center">
+                </com.bob.bobmobileapp.tools.UI.views.textviews.MyButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/register_sign_in_message_text_view"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_gravity="center">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/register_sign_in_link_text_view"
+                    android:layout_gravity="center">
+                </TextView>
+
+
+            </LinearLayout>
+
+            <!--sms authentication layout-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:id="@+id/sms_authentication_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/sms_authentication_title_text_view"
+                    android:layout_gravity="center">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sms_authentication_info_first_text_view"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_gravity="center">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sms_authentication_info_second_text_view"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_gravity="center">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:id="@+id/sms_authentication_code_layout">
+
+                    <com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sms_authentication_first_code_edit_text"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp">
+                    </com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText>
+
+                    <com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sms_authentication_second_code_edit_text"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp">
+                    </com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText>
+
+                    <com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sms_authentication_third_code_edit_text"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp">
+                    </com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText>
+
+                    <com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sms_authentication_fourth_code_edit_text"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp">
+                    </com.bob.bobmobileapp.tools.UI.views.textviews.MyEditText>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sms_authentication_error_text_view"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_gravity="center">
+                </TextView>
+
+                <com.bob.bobmobileapp.tools.UI.views.textviews.MyButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sms_authentication_button"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_gravity="center">
+                </com.bob.bobmobileapp.tools.UI.views.textviews.MyButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sms_authentication_sign_in_message_text_view"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_gravity="center">
+                </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:id="@+id/sms_authentication_links_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:id="@+id/sms_authentication_sign_in_link_text_view"
+                    android:layout_gravity="center">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:id="@+id/sms_authentication_resend_code_link_text_view"
+                    android:layout_gravity="center">
+                </TextView>
+
+            </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--progress layout-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:id="@+id/progress_layout">
+
+                <ImageView
+                    android:id="@+id/progress_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerInside"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="50dp"/>
+
+
+                <com.bob.bobmobileapp.tools.UI.progressbar.MyProgressBar
+                    android:id="@+id/progress_bar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerInside"
+                    android:layout_gravity="center_horizontal"
+
+                    app:progress_reached_round_x="15"
+                    app:progress_reached_round_y="15"
+                    app:progress_unreached_round_x="15"
+                    app:progress_unreached_round_y="15"
+
+                    app:progress_unreached_color="@color/transparent"
+                    app:progress_reached_color="@color/colorPrimaryLight"
+
+                    app:progress_unreached_bar_height="10dp"
+                    app:progress_reached_bar_height="10dp"
+
+                    app:progress_text_size="10sp"
+                    app:progress_text_color="@color/colorPrimaryLight"
+                    app:progress_text_offset="1dp"
+
+                    app:progress_max="100"
+                    app:progress_current="0"
+
+                    />
+
+            </LinearLayout>
+
+            <!--loading layout-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:id="@+id/loading_layout">
+
+                <ImageView
+                    android:id="@+id/loading_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerInside"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

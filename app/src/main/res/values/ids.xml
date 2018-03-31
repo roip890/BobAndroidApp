@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="material_drawer_item_custom_url_item_primary" type="id" />
+    <item name="material_drawer_item_centered_primary" type="id" />
+    <item name="material_drawer_item_overflow_menu_primary" type="id" />
+    <item name="material_drawer_item_custom_url_item_secondary" type="id" />
+    <item name="material_drawer_item_centered_secondary" type="id" />
+    <item name="material_drawer_item_overflow_menu_secondary" type="id" />
+</resources>

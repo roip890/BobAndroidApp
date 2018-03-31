@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="drawer_profile_width">75dp</dimen>
+    <dimen name="drawer_profile_height">75dp</dimen>
+    <dimen name="nav_header_height">250dp</dimen>
+    <dimen name="text_size_small">1sp</dimen>
+    <dimen name="text_size_medium">2sp</dimen>
+    <dimen name="text_size_large">4sp</dimen>
+    <dimen name="text_size_x_large">8sp</dimen>
+    <dimen name="dialog_default_max_icon_size">48dp</dimen>
+    <dimen name="menu_node_default_size">48dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>
