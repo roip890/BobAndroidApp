@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by User on 04/02/2018..
+ * Created by User on 04/02/2018.
  */
 
 public class UIUtilsManager {
